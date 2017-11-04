@@ -100,6 +100,10 @@ The figure that follows illustrates how everything is an object in Python and va
    %\Needspace{5\baselineskip}
    \clearpage
 
+Strings 
+---------
+print('hello world')
+
 Numbers
 -----------
 
