@@ -67,39 +67,7 @@ The Zen of Python
 Run the following in an interpreter to get an Easter egg that describes some of the ethos behind Python. This is also codified in PEP 20::
 
     >>> import this
-    The Zen of Python, by Tim Peters
-
-    Beautiful is better than ugly.
-    Explicit is better than implicit.
-    Simple is better than complex.
-    Complex is better than complicated.
-    Flat is better than nested.
-    Sparse is better than dense.
-    Readability counts.
-    Special cases aren't special enough to break the
-    rules.
-    Although practicality beats purity.
-    Errors should never pass silently.
-    Unless explicitly silenced.
-    In the face of ambiguity, refuse the temptation
-    to guess.
-    There should be one --and preferably only one--
-    obvious way to do it.
-    Although that way may not be obvious at first
-    unless you're Dutch.
-    Now is better than never.
-    Although never is often better than *right* now.
-    If the implementation is hard to explain, it's a
-    bad idea.
-    If the implementation is easy to explain, it may
-    be a good idea.
-    Namespaces are one honking great idea -- let's
-    do more of those!
-
-These might just seem like silly one liners, but there is a lot of wisdom
-packed in here. It is good for Python programmers to review these
-every once in a while and see if these hold true for their code. (Or to
-justify their code reviews)
+    
 
 Built-in Types
 ===============
