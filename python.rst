@@ -4,12 +4,9 @@
 Introduction
 ==============
 
-This is not so much an instructional manual, but rather notes, tables, and
-examples for Python syntax. It was created by the author as an additional
-resource during training, meant to be distributed as a physical notebook.
-Participants (who favor the physical characteristics of dead tree material)
-could add their own notes, thoughts, and have a valuable reference
-of curated examples.
+This is a basic Introduction to the python language.
+I will use this as a guide for the CESS data structures and algorithms.
+This is a guide to learn python quickly and move on to data structures and algorithms.
 
 
 Running Python
