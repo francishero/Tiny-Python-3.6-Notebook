@@ -10,38 +10,24 @@ Otherwise they guessed the number and won
 #we import from the python standard library some code
 #this code allows us to generate a random number
 
+
 import random
+secretNumber = random.randint(1, 20)
+print('I am thinking of a number between 1 and 20.')
 
-#we declare a secretNumber variable and store the random number
-secretNumber = random.randint(1,20)
+# Ask the player to guess 6 times.
+for guessesTaken in range(1, 7):
+    print('Take a guess.')
+    guess = int(input())
 
-#welcome message
-print("WELCOME TO THE GUESSING GAME")
-#we simulate an infinite loop
+    if guess < secretNumber:
+        print('Your guess is too low.')
+    elif guess > secretNumber:
+        print('Your guess is too high.')
+    else:
+        break    # This condition is the correct guess!
 
-while True:
-    print("Enter your guess number: ")
-
-    # we give the user 6 chances
-    for guessTime in range(1,7):
-
-        # we grab whatever the user enters
-        guess = int(input()) #input returns a string but we make it a number
-
-        #here is the game logic
-
-        if guess < secretNumber:
-            print("Try something higher...")
-        elif guess > secretNumber:
-            print("Try something less...")
-        else:
-            # they found the answer!
-            # why?
-            # because this number is not less and not higher
-            # so its equal :)
-
-            break #we break out of the infinite loop
 if guess == secretNumber:
-    print("Wow you won afte {0} tries".format(guessTime))
+    print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!')
 else:
-    print("Sorry but you lost i was looking for {0}".format(secretNumber))
+    print('Nope. The number I was thinking of was ' + str(secretNumber))
